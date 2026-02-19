@@ -4,7 +4,15 @@
 // async js coding
 // foreach map filter find indexof
 
-var arr = [1, 2, 3, 4, 5];
+/*array*/
+/*1> forEach
+2> map
+3> filter
+4> find
+5> indexOf
+*/
+
+// var arr = [1, 2, 3, 4, 5];
 
 /*1> arr.forEach(function (val) {
     console.log(val + " hello ");
@@ -30,3 +38,7 @@ console.log(ans);
 })
 console.log(ans);*/
 
+var obj = {
+    name: "sachin",
+    age: 21
+};
