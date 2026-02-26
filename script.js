@@ -38,7 +38,20 @@ console.log(ans);
 })
 console.log(ans);*/
 
-var obj = {
-    name: "sachin",
-    age: 21
-};
+// var obj = {
+//     name: "sachin",
+//     age: 21
+// };
+
+
+/*var blob = await fetch("https://jsonplaceholder.typicode.com/posts");
+var res = await blob.json();
+
+console.log(res); */
+
+const fs = require('fs');
+
+fs.writeFile('example.txt', 'Hello, World!', (err) => {
+    if (err) throw err;
+    console.log('File has been saved!');
+});
