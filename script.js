@@ -51,7 +51,17 @@ console.log(res); */
 
 const fs = require('fs');
 
-fs.writeFile('example.txt', 'Hello, World!', (err) => {
+/*fs.appendFile('example.txt', 'Hello, World!', (err) => {
     if (err) throw err;
     console.log('File has been saved!');
-});
+});*/
+
+// fs.rename('example.txt', 'new_example.txt', function (err) {
+//     if (err) console.log(err);
+//     else console.log('file renamed ');
+// });
+
+fs.rm("./copy", { recursive: true }, function (err) {
+    if (err) console.log(err);
+    else console.log("removed");
+})
